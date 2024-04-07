@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad5296e9a7ca0842b08e53c19d6f623, type: 3}
+  m_Name: AttackPoke
+  m_EditorClassIdentifier: 
+  data:
+  - name: Lance-Flammes
+    id: 0
+    description: "La cible re\xE7oit un torrent de flammes qui peut aussi la br\xFBler."
+    damage: 90
+    classes: 1
+    types: 9
+  - name: Feu Flamme
+    id: 1
+    description: "La cible est entour\xE9e d\u2019un torrent de flammes ardentes
+      qui la br\xFBlent."
+    damage: 100
+    classes: 1
+    types: 9
+  - name: Choc Mental
+    id: 2
+    description: "Une faible vague t\xE9l\xE9kin\xE9tique frappe la cible, ce qui
+      peut aussi la plonger dans la confusion."
+    damage: 50
+    classes: 1
+    types: 13
+  - name: Reflet
+    id: 3
+    description: "Le lanceur se d\xE9place si vite qu\u2019il cr\xE9e des copies
+      illusoires de lui-m\xEAme, augmentant son Esquive."
+    damage: 0
+    classes: 2
+    types: 0
+  - name: Hypnose
+    id: 4
+    description: Le lanceur hypnotise la cible pour la plonger dans un profond sommeil.
+    damage: 0
+    classes: 2
+    types: 13
+  - name: Psyko
+    id: 5
+    description: "Une puissante force t\xE9l\xE9kin\xE9tique frappe la cible, ce
+      qui peut aussi faire baisser sa D\xE9fense Sp\xE9ciale."
+    damage: 90
+    classes: 1
+    types: 13
+  - name: "\xC9clat Magique"
+    id: 6
+    description: "Le lanceur lib\xE8re une puissante d\xE9charge lumineuse qui inflige
+      des d\xE9g\xE2ts \xE0 l\u2019ennemi."
+    damage: 80
+    classes: 1
+    types: 17
+  - name: "Feu Ensorcel\xE9\t"
+    id: 7
+    description: "Le lanceur attaque en soufflant des flammes br\xFBlantes par la
+      bouche et diminue l\u2019Attaque Sp\xE9ciale de la cible."
+    damage: 75
+    classes: 1
+    types: 9
+  - name: Fouet Lianes
+    id: 8
+    description: "Fouette la cible avec de fines lianes pour infliger des d\xE9g\xE2ts."
+    damage: 75
+    classes: 0
+    types: 11
+  - name: Lance-Soleil
+    id: 9
+    description: "Le lanceur absorbe une grande quantit\xE9 de lumi\xE8re au premier
+      tour et envoie un rayon puissant au tour suivant."
+    damage: 120
+    classes: 1
+    types: 11
+  - name: "Tranch\u2019Herbe"
+    id: 10
+    description: "Des feuilles aiguis\xE9es comme des rasoirs entaillent la cible.
+      Taux de critiques \xE9lev\xE9."
+    damage: 55
+    classes: 0
+    types: 11
+  - name: "B\xE9lier"
+    id: 11
+    description: "Une charge violente qui blesse aussi l\xE9g\xE8rement le lanceur."
+    damage: 90
+    classes: 0
+    types: 0
+  - name: "Temp\xEAte Florale\t"
+    id: 12
+    description: "D\xE9clenche une violente temp\xEAte de fleurs qui inflige des
+      d\xE9g\xE2ts \xE0 tous les Pok\xE9mon alentour."
+    damage: 90
+    classes: 0
+    types: 11
+  - name: Danse Fleurs
+    id: 13
+    description: "Le lanceur attaque en projetant des p\xE9tales pendant deux \xE0
+      trois tours avant de c\xE9der \xE0 la confusion."
+    damage: 120
+    classes: 1
+    types: 11
+  - name: "Flamm\xE8che"
+    id: 14
+    description: "La cible est attaqu\xE9e par une faible flamme qui peut aussi la
+      br\xFBler."
+    damage: 40
+    classes: 1
+    types: 9
+  - name: "Feu d\u2019Enfer\t"
+    id: 15
+    description: "La cible est entour\xE9e d\u2019un torrent de flammes ardentes
+      qui la br\xFBlent."
+    damage: 100
+    classes: 1
+    types: 9
+  - name: Griffe
+    id: 16
+    description: "Lac\xE8re la cible avec des griffes ac\xE9r\xE9es pour lui infliger
+      des d\xE9g\xE2ts."
+    damage: 40
+    classes: 0
+    types: 0
+  - name: Draco-Souffle
+    id: 17
+    description: "Le lanceur souffle fort sur la cible pour lui infliger des d\xE9g\xE2ts,
+      ce qui peut aussi la paralyser."
+    damage: 60
+    classes: 1
+    types: 15
+  - name: "Lame d\u2019Air"
+    id: 18
+    description: "Le lanceur attaque avec une lame d\u2019air capable de fendre le
+      ciel, ce qui peut aussi apeurer la cible."
+    damage: 95
+    classes: 1
+    types: 2
+  - name: Draco-Griffe
+    id: 19
+    description: "Le lanceur lac\xE8re la cible de ses grandes griffes aiguis\xE9es."
+    damage: 80
+    classes: 0
+    types: 15
+  - name: Canicule
+    id: 20
+    description: "Le lanceur provoque une vague de chaleur qui peut aussi br\xFBler
+      la cible."
+    damage: 95
+    classes: 1
+    types: 9
+  - name: Aquatacle
+    id: 21
+    description: "Le lanceur se recouvre enti\xE8rement d\u2019eau avant de charger
+      sa cible. Cela blesse aussi gravement le lanceur."
+    damage: 120
+    classes: 0
+    types: 10
+  - name: Danse Pluie
+    id: 22
+    description: "Invoque de fortes pluies qui durent cinq tours, augmentant la puissance
+      des capacit\xE9s de type Eau et baissant celle des capacit\xE9s de type Feu."
+    damage: 0
+    classes: 2
+    types: 10
+  - name: "Pistolet \xE0 O"
+    id: 23
+    description: "De l\u2019eau est projet\xE9e avec force sur la cible."
+    damage: 40
+    classes: 1
+    types: 10
+  - name: Luminocanon
+    id: 24
+    description: "Le lanceur concentre son \xE9nergie lumineuse et la fait exploser,
+      ce qui peut aussi baisser la D\xE9fense Sp\xE9ciale de la cible."
+    damage: 80
+    classes: 1
+    types: 8

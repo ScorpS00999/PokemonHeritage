@@ -1,0 +1,374 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27957a20c7adf96498dcb5a9dbd77afe, type: 3}
+  m_Name: PokemonDatabase
+  m_EditorClassIdentifier: 
+  data:
+  - name: Feunard
+    id: 0
+    description: "Selon la l\xE9gende, chacune de ses neuf queues poss\xE9derait
+      un pouvoir magique unique."
+    height: 11
+    weight: 199
+    icon: {fileID: 21300000, guid: 5f5b0b5069c4a764da2314f7b3a9ab86, type: 3}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 73
+      attack: 76
+      defense: 75
+      special_attack: 81
+      special_defense: 100
+      speed: 100
+    apiTypes:
+    - name: Feu
+      image: https://static.wikia.nocookie.net/pokemongo/images/2/21/Psychic.png
+      icon: {fileID: 0}
+    attack:
+    - name: Lance-Flammes
+      level: 4
+    - name: "Feu d\u2019Enfer"
+      level: 10
+  - name: Tarsal
+    id: 280
+    description: "Il per\xE7oit tr\xE8s pr\xE9cis\xE9ment les \xE9motions humaines
+      gr\xE2ce aux cornes rouges sur sa t\xEAte."
+    height: 4
+    weight: 66
+    icon: {fileID: 21300000, guid: 649e21b928f22c5439af3da113b0d3b8, type: 3}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 28
+      attack: 25
+      defense: 25
+      special_attack: 45
+      special_defense: 35
+      speed: 40
+    apiTypes:
+    - name: Psy
+      image: https://static.wikia.nocookie.net/pokemongo/images/2/21/Psychic.png
+      icon: {fileID: 0}
+    - name: "F\xE9e"
+      image: https://static.wikia.nocookie.net/pokemongo/images/4/43/Fairy.png
+      icon: {fileID: 0}
+    attack:
+    - name: Choc Mental
+      level: 4
+    - name: Reflet
+      level: 6
+  - name: Kirlia
+    id: 281
+    description: "Gr\xE2ce \xE0 ses pouvoirs psychiques, il peut distordre l\u2019espace-temps
+      et ainsi voir l\u2019avenir."
+    height: 8
+    weight: 202
+    icon: {fileID: 21300000, guid: 9485acdde134939479ec33b538121885, type: 3}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 38
+      attack: 35
+      defense: 35
+      special_attack: 65
+      special_defense: 55
+      speed: 50
+    apiTypes:
+    - name: Psy
+      image: https://static.wikia.nocookie.net/pokemongo/images/2/21/Psychic.png
+      icon: {fileID: 0}
+    - name: "F\xE9e"
+      image: https://static.wikia.nocookie.net/pokemongo/images/4/43/Fairy.png
+      icon: {fileID: 0}
+    attack:
+    - name: Hypnose
+      level: 4
+    - name: Psyko
+      level: 4
+  - name: Gardevoir
+    id: 282
+    description: "Pr\xEAt \xE0 tout pour prot\xE9ger son Dresseur, il peut aller
+      jusqu\u2019\xE0 \xE9puiser sa force mentale pour cr\xE9er un mini trou noir."
+    height: 16
+    weight: 484
+    icon: {fileID: 21300000, guid: 5901f76296b91ad4a9dce41b0f469b5b, type: 3}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 68
+      attack: 65
+      defense: 65
+      special_attack: 125
+      special_defense: 115
+      speed: 80
+    apiTypes:
+    - name: Psy
+      image: https://static.wikia.nocookie.net/pokemongo/images/2/21/Psychic.png
+      icon: {fileID: 0}
+    - name: "F\xE9e"
+      image: https://static.wikia.nocookie.net/pokemongo/images/4/43/Fairy.png
+      icon: {fileID: 0}
+    attack:
+    - name: Psyko
+      level: 7
+    - name: "\xC9clat Magique"
+      level: 7
+  - name: Bulbizarre
+    id: 1
+    description: "Au d\xE9but de sa vie, il se nourrit des nutriments accumul\xE9s
+      dans la graine sur son dos. Cela lui permet de grandir."
+    height: 7
+    weight: 69
+    icon: {fileID: 21300000, guid: 36fca1082a65e9040ac7bb69dd32575e, type: 3}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 45
+      attack: 49
+      defense: 49
+      special_attack: 65
+      special_defense: 65
+      speed: 45
+    apiTypes:
+    - name: Poison
+      image: https://static.wikia.nocookie.net/pokemongo/images/0/05/Poison.png
+      icon: {fileID: 0}
+    - name: Plante
+      image: https://static.wikia.nocookie.net/pokemongo/images/c/c5/Grass.png
+      icon: {fileID: 0}
+    attack:
+    - name: Fouet Lianes
+      level: 5
+    - name: Lance-Soleil
+      level: 5
+  - name: Herbizarre
+    id: 2
+    description: "Plus il s\u2019expose au soleil, plus il emmagasine d\u2019\xE9nergie,
+      ce qui permet au bourgeon sur son dos de se d\xE9velopper."
+    height: 10
+    weight: 130
+    icon: {fileID: 21300000, guid: 602a9d175b318264e85ba16a450ea22b, type: 3}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 60
+      attack: 62
+      defense: 63
+      special_attack: 80
+      special_defense: 80
+      speed: 60
+    apiTypes:
+    - name: Poison
+      image: https://static.wikia.nocookie.net/pokemongo/images/0/05/Poison.png
+      icon: {fileID: 0}
+    - name: Plante
+      image: https://static.wikia.nocookie.net/pokemongo/images/c/c5/Grass.png
+      icon: {fileID: 0}
+    attack:
+    - name: "Tranch\u2019Herbe"
+      level: 6
+    - name: "B\xE9lier"
+      level: 6
+  - name: Florizarre
+    id: 3
+    description: "Ce Pok\xE9mon est capable de transformer la lumi\xE8re du soleil
+      en \xE9nergie. Il est donc encore plus fort en \xE9t\xE9."
+    height: 20
+    weight: 1000
+    icon: {fileID: 21300000, guid: 2c68f62a5260ec8448080194e0ef21cc, type: 3}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 80
+      attack: 82
+      defense: 83
+      special_attack: 100
+      special_defense: 100
+      speed: 80
+    apiTypes:
+    - name: Poison
+      image: https://static.wikia.nocookie.net/pokemongo/images/0/05/Poison.png
+      icon: {fileID: 0}
+    - name: Plante
+      image: https://static.wikia.nocookie.net/pokemongo/images/c/c5/Grass.png
+      icon: {fileID: 0}
+    attack:
+    - name: "Temp\xEAte Florale\t"
+      level: 5
+    - name: Danse Fleurs
+      level: 7
+  - name: "Salam\xE8che"
+    id: 4
+    description: "La flamme au bout de sa queue repr\xE9sente sa vitalit\xE9. Quand
+      Salam\xE8che n\u2019est pas au meilleur de sa forme, elle faiblit.\r"
+    height: 6
+    weight: 85
+    icon: {fileID: 21300000, guid: d07ed8136abffd545baf88d2eb48796d, type: 3}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 39
+      attack: 52
+      defense: 43
+      special_attack: 60
+      special_defense: 50
+      speed: 65
+    apiTypes:
+    - name: Feu
+      image: https://static.wikia.nocookie.net/pokemongo/images/3/30/Fire.png
+      icon: {fileID: 0}
+    attack:
+    - name: "Flamm\xE8che"
+      level: 4
+    - name: "Feu d\u2019Enfer\t"
+      level: 5
+  - name: Reptincel
+    id: 5
+    description: "En agitant sa queue enflamm\xE9e, il peut \xE9lever la temp\xE9rature
+      ambiante de mani\xE8re exponentielle et ainsi tourmenter ses adversaires."
+    height: 11
+    weight: 190
+    icon: {fileID: 21300000, guid: ed8767a1f19354944bcdc38af4daae3e, type: 3}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 58
+      attack: 64
+      defense: 58
+      special_attack: 80
+      special_defense: 65
+      speed: 80
+    apiTypes:
+    - name: Feu
+      image: https://static.wikia.nocookie.net/pokemongo/images/3/30/Fire.png
+      icon: {fileID: 0}
+    attack:
+    - name: Griffe
+      level: 7
+    - name: Draco-Souffle
+      level: 7
+  - name: Dracaufeu
+    id: 6
+    description: "Quand Dracaufeu s\u2019\xE9nerve r\xE9ellement, la flamme au bout
+      de sa queue devient bleue."
+    height: 17
+    weight: 905
+    icon: {fileID: 21300000, guid: ea535751ae9382944acb2caa4780e458, type: 3}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 78
+      attack: 84
+      defense: 78
+      special_attack: 109
+      special_defense: 85
+      speed: 100
+    apiTypes:
+    - name: Vol
+      image: https://static.wikia.nocookie.net/pokemongo/images/7/7f/Flying.png
+      icon: {fileID: 0}
+    - name: Feu
+      image: https://static.wikia.nocookie.net/pokemongo/images/3/30/Fire.png
+      icon: {fileID: 0}
+    attack:
+    - name: "Lame d\u2019Air"
+      level: 6
+    - name: Draco-Griffe
+      level: 6
+  - name: Carapuce
+    id: 7
+    description: "Ce Pok\xE9mon crache une \xE9cume redoutable. Apr\xE8s sa naissance,
+      son dos gonfle et durcit pour former une carapace."
+    height: 5
+    weight: 90
+    icon: {fileID: 21300000, guid: 8019890c286c64b4eb37400267f62947, type: 3}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 44
+      attack: 48
+      defense: 65
+      special_attack: 50
+      special_defense: 64
+      speed: 43
+    apiTypes:
+    - name: Eau
+      image: https://static.wikia.nocookie.net/pokemongo/images/9/9d/Water.png
+      icon: {fileID: 0}
+    attack:
+    - name: Aquatacle
+      level: 4
+    - name: Danse Pluie
+      level: 4
+  - name: Carabaffe
+    id: 8
+    description: "Sa longue queue touffue est un symbole de long\xE9vit\xE9. Les
+      personnes \xE2g\xE9es appr\xE9cient donc particuli\xE8rement ce Pok\xE9mon."
+    height: 10
+    weight: 225
+    icon: {fileID: 21300000, guid: 772514b8fd6de7640b97b5fa543f75ed, type: 3}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 59
+      attack: 63
+      defense: 80
+      special_attack: 65
+      special_defense: 80
+      speed: 58
+    apiTypes:
+    - name: Eau
+      image: https://static.wikia.nocookie.net/pokemongo/images/9/9d/Water.png
+      icon: {fileID: 0}
+    attack:
+    - name: Danse Pluie
+      level: 6
+    - name: "Pistolet \xE0 O"
+      level: 6
+  - name: Tortank
+    id: 9
+    description: "Il augmente d\xE9lib\xE9r\xE9ment sa masse corporelle pour contrer
+      le recul de ses puissants jets d\u2019eau."
+    height: 16
+    weight: 855
+    icon: {fileID: 21300000, guid: 949167edc2003fb479c6f8fef3a28c6a, type: 3}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 79
+      attack: 83
+      defense: 100
+      special_attack: 85
+      special_defense: 105
+      speed: 78
+    apiTypes:
+    - name: Eau
+      image: https://static.wikia.nocookie.net/pokemongo/images/9/9d/Water.png
+      icon: {fileID: 0}
+    attack:
+    - name: "Pistolet \xE0 O"
+      level: 7
+    - name: Luminocanon
+      level: 7
